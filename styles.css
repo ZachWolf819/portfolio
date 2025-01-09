@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
-    body {
-      color: gray;
+    * {
+    font-size: 12px;
     }
   }
   
