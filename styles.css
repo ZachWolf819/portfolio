@@ -2,6 +2,8 @@
     * {
     font-size: 12px;
     height: auto;
+    gap: 1px;
+    padding: 1px;
     }
     }
   
@@ -35,10 +37,10 @@
   }
   
   #welcome-section {
-    padding: 50px;
+    padding: 40px;
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     height: auto;
   }
