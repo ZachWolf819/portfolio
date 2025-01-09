@@ -3,10 +3,11 @@
     font-size: 40px;
     height: auto;
     padding: 1px;
+    gap: 1;
     }
     project-tile iframe {
         zoom: 0.2;
-        transform: scale(0.2);
+        transform: scale(0.6);
     }
   }
   
