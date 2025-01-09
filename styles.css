@@ -1,8 +1,11 @@
 @media (max-width: 768px) {
     * {
-    font-size: 30px;
+    font-size: 40px;
     height: auto;
     padding: 1px;
+    }
+    project-tile iframe {
+        zoom: 0.2;
     }
   }
   
