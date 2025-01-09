@@ -5,10 +5,7 @@
     padding: 1px;
     gap: 1;
     }
-    project-tile iframe {
-        zoom: 0.2;
     }
-  }
   
   * {
     font-family: Arial, sans-serif;
