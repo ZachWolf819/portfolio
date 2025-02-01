@@ -41,18 +41,24 @@
     justify-content: center;
     height: auto;
     width: 100%;
+    gap: 5px;
   }
   
   .project-tile {
-    box-sizing: border-box;
     border: 5px solid black;
     border-radius: 10px;
     text-align: center;
     background-color: #A59079;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .project-tile a {
+    display: block;
   }
   
   .project-tile iframe {
-    width: 90%;
+    width: 99%;
     height: auto;
   }
   
@@ -62,4 +68,20 @@
     color: black;
     font-weight: bold;
     background-color: #A59079;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+  }
+
+  #profile-link, #fcc {
+    display: block;
+  }
+
+  @media (min-width: 600px) {
+    #projects {
+      width: 100%;
+    }
+    .project-tile {
+      width: 45%;
+    }
   }
